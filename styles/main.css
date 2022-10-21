@@ -1,10 +1,4 @@
 /* HTML Selectors */
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 body {
     font-family: 'Kalam', cursive;
 }
@@ -67,11 +61,6 @@ nav ul li a:hover {
     color: black;
 }
 
-section {
-    text-align: center;
-}
-
-
 /* Class Selectors */
 .active {
     background-color: white;
@@ -83,12 +72,16 @@ section {
 }
 
 /* ID Selectors */
-#functions {
-    display: grid;
-    grid-template-columns: 1fr;
+#favorite-foods, #hobbies, #places-lived {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
 }
 
-/* media queries */
+/* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
         flex-direction: row;
@@ -101,9 +94,5 @@ section {
     nav ul li {
         display: inline;
         margin: 0 10px;
-    }
-
-    #functions {
-        grid-template-columns: 1fr 1fr;
     }
 }
