@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Week 06 | Final Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/task6.css">
+</head>
+<body>
+    <main>
+        <div id="cards">
+            <section id="card1">
+                <h1>Card One Information:</h1>
+                <label id="name1">Name:</label>
+                <input type="text" id="name1Input">
+
+                <label id="power1">Power:</label>
+                <input type="dropDown" id="power1Input">
+
+                <label id="tough1">Toughness:</label>
+                <input type="dropDown" id="tough1Input">
+
+                <label id="abilities1">Abilities:</label>
+                <select id="char1"></select>
+                <input type="button" id="add1" value="Add Selection">
+            </section>
+            <section id="card2">
+                <h1>Card Two Information:</h1>
+                <label id="name2">Name:</label>
+                <input type="text" id="name2Input">
+
+                <label id="power2">Power:</label>
+                <input type="dropDown" id="power2Input">
+
+                <label id="tough2">Toughness:</label>
+                <input type="dropDown" id="tough2Input">
+
+                <label id="abilities2">Abilities:</label>
+                <select id="char2"></select>
+                <input type="button" id="add2" value="Add Selection">
+            </section>
+        </div>    
+        <section id="result">
+            <input type="button" id="battle" value="Click To Battle!">
+        </section>
+        <section id="winner">
+            <h1 id="winnerResult"></h1>
+        </section>
+    </main>
+</body>
+<script src="scripts/task6.js"></script>
+</html>
